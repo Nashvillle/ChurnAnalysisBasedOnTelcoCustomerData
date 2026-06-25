@@ -22,11 +22,11 @@ The project involved several key steps:<br>
 - Customer Profiling & Visualization: Identified customers predicted to be retained and churned.
   <br>
 Visualized characteristics of both groups, including distributions of numerical features **(tenure, MonthlyCharges, TotalCharges)** and proportions of various categorical features **(e.g., SeniorCitizen status, Contract type, InternetService, PaymentMethod, Gender, Partner status, Dependents status, OnlineSecurity usage)**.
-<br>**Key Insights**<br>
+ <br> <br>**Key Insights**<br>
 General Model Performance
 The Logistic Regression model achieved an accuracy of approximately 80.5% on the test set. Detailed precision, recall, and F1-scores were examined, showing the model's ability to identify both churned and non-churned customers.
   
-**Characteristics of Retained Customers**<br>
+<br>**Characteristics of Retained Customers**<br>
 Customers predicted to be retained generally exhibited:
 
 - Higher Tenure: Tend to have been customers for a longer duration.
@@ -34,7 +34,7 @@ Customers predicted to be retained generally exhibited:
 - Contract Types: A higher proportion of customers with One year or Two year contracts.
 - Demographics: Distinct distributions across gender, Partner status, Dependents status, and SeniorCitizen status.
 - Service Usage: Specific preferences for InternetService types, PaymentMethods, and OnlineSecurity service usage.
-  **Characteristics of Churned Customers**<br>
+ <br> **Characteristics of Churned Customers**<br>
 Customers predicted to churn typically showed:
 
 - Lower Tenure: Often leave early in their customer lifecycle.
@@ -43,7 +43,7 @@ Customers predicted to churn typically showed:
 - Service Usage: Overrepresentation of Fiber optic internet service and Electronic check payment method, suggesting potential dissatisfaction with these aspects.
 - Online Security: A notable number of churned customers did not use 'Online Security' service.<br>
   These insights suggest that factors like contract length, specific internet services, payment methods, and initial customer engagement play crucial roles in customer retention. The model provides a robust framework for identifying at-risk customers.
-
+<br>
 **Technologies Used**
 - Python
 - pandas (for data manipulation and analysis)
