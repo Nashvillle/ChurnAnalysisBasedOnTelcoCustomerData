@@ -2,7 +2,7 @@
 <h2>Telco Customer Churn Analysis</h2>
 <h3>Project Overview</h3>
 This project focuses on analyzing and predicting customer churn in a telecommunications company using machine learning techniques. The goal is to identify factors contributing to customer attrition and characterize customers who are likely to churn versus those who are likely to be retained. This understanding can help in developing targeted retention strategies and improving customer satisfaction.
-Used data from Kaggle based on Telco Customer Data to generate a predcition analysis with churn.
+Used data from Kaggle based on Telco Customer Data to generate a predcition analysis with churn.<br>
 
 **Dataset**<br>
 The analysis utilizes the Telco Customer Churn(WA_Fn-UseC_-Telco-Customer-Churn.csv) dataset generated from Kaggle, which contains information about a telecommunication company's customers, including their services, account information, and whether they churned or not.
@@ -33,8 +33,9 @@ Customers predicted to be retained generally exhibited:
 - Higher Total Charges: Accumulated greater total charges, aligning with longer tenure.
 - Contract Types: A higher proportion of customers with One year or Two year contracts.
 - Demographics: Distinct distributions across gender, Partner status, Dependents status, and SeniorCitizen status.
-- Service Usage: Specific preferences for InternetService types, PaymentMethods, and OnlineSecurity service usage.
- <br> **Characteristics of Churned Customers**<br>
+- Service Usage: Specific preferences for InternetService types, PaymentMethods, and OnlineSecurity service usage.</br>
+  
+**Characteristics of Churned Customers**<br>
 Customers predicted to churn typically showed:
 
 - Lower Tenure: Often leave early in their customer lifecycle.
@@ -42,9 +43,9 @@ Customers predicted to churn typically showed:
 - Contract Types: A significantly higher proportion of customers on Month-to-month contracts.
 - Service Usage: Overrepresentation of Fiber optic internet service and Electronic check payment method, suggesting potential dissatisfaction with these aspects.
 - Online Security: A notable number of churned customers did not use 'Online Security' service.<br>
-  These insights suggest that factors like contract length, specific internet services, payment methods, and initial customer engagement play crucial roles in customer retention. The model provides a robust framework for identifying at-risk customers.
-<br>
-**Technologies Used**
+  These insights suggest that factors like contract length, specific internet services, payment methods, and initial customer engagement play crucial roles in customer retention. The model provides a robust framework for identifying at-risk customers.<br>
+
+**Technologies Used*
 - Python
 - pandas (for data manipulation and analysis)
 - numpy (for numerical operations)
