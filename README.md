@@ -1,5 +1,6 @@
 
-Telco Customer Churn Analysis
+Telco Customer Churn Analysis 
+/n
 Project Overview
 This project focuses on analyzing and predicting customer churn in a telecommunications company using machine learning techniques. The goal is to identify factors contributing to customer attrition and characterize customers who are likely to churn versus those who are likely to be retained. This understanding can help in developing targeted retention strategies and improving customer satisfaction.
 Used data from Kaggle based on Telco Customer Data to generate a predcition analysis with churn.
