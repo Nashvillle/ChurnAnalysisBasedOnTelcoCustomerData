@@ -25,7 +25,7 @@ Visualized characteristics of both groups, including distributions of numerical 
 <br>**Key Insights**<br>
 General Model Performance
 The Logistic Regression model achieved an accuracy of approximately 80.5% on the test set. Detailed precision, recall, and F1-scores were examined, showing the model's ability to identify both churned and non-churned customers.
-<br>
+  
 **Characteristics of Retained Customers**<br>
 Customers predicted to be retained generally exhibited:
 
@@ -34,7 +34,7 @@ Customers predicted to be retained generally exhibited:
 - Contract Types: A higher proportion of customers with One year or Two year contracts.
 - Demographics: Distinct distributions across gender, Partner status, Dependents status, and SeniorCitizen status.
 - Service Usage: Specific preferences for InternetService types, PaymentMethods, and OnlineSecurity service usage.
-<br>**Characteristics of Churned Customers**<br>
+  **Characteristics of Churned Customers**<br>
 Customers predicted to churn typically showed:
 
 - Lower Tenure: Often leave early in their customer lifecycle.
